@@ -23,6 +23,7 @@ application, and serving them to your clients.
 
 * **Lightweight**: only one Redis connection for history and one for all
   subscriptions, no matter the number of connected clients.
+  
 
 * **`missedevents` event fired** when the full requested history could not be
   found, to allow the client to handle the case where events were missed.
